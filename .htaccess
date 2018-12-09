@@ -1,0 +1,4 @@
+Options -MultiViews
+RewriteEngine on
+RewriteBase /dreadball/
+RewriteRule ^view/(.+)/ /view.php?team=$1 [NC] 
